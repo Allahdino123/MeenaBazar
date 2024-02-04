@@ -1,0 +1,122 @@
+.HeroSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--secondary);
+}
+.Hero--banner {
+    width: 50%;
+}
+.Hero--banner > img{
+    width: 100%;
+}
+.Hero--detialis{
+padding-right: 200px;
+}
+.Hero--detialis h2{
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--back);
+  line-height: 60px;
+}
+.Hero--detialis p{
+    font-size: 18px;
+    line-height: 50px;
+    color: var(--back);
+    letter-spacing: 1px;
+   
+  }
+  .view-products-btn {
+    margin-top: 10px;
+    width: 300px;
+    padding: 16px;
+    border: none;
+    border-radius: 25px; 
+    background-color: var(--white); 
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .view-products-btn::before {
+    content: '\25C7'; 
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+
+  .view-products-btn:hover::before {
+    opacity: 1;
+  }
+
+  
+  .view-products-btn:hover {
+    transition: opacity 0.3s ease-out;
+    opacity: 0.7;
+  }
+
+  @media (max-width: 768px) {
+    
+    .HeroSection {
+      display: flex;
+      flex-direction: column;
+  }
+  .Hero--banner {
+    width: 100%;
+}
+.Hero--banner > img {
+  width: 100%;
+  height: 60vh;
+}
+
+.Hero--detialis {
+  padding: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Hero--detialis h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--back);
+  line-height: 40px;
+}
+.Hero--detialis p {
+  font-size: 16px;
+  line-height: 40px;
+ padding: 0 30px;
+ text-align: center;
+}
+.view-products-btn {
+  margin-top: 10px;
+  width: 200px;
+  padding: 16px;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--white);
+  color: var(--primary);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+  }

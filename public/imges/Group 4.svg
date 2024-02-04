@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.715" height="47" viewBox="0 0 54.715 47">
+  <g id="Group_4" data-name="Group 4" transform="translate(-1733.285 -131)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="10" cy="10" r="10" transform="translate(1768 131)" fill="#bd9229"/>
+    <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(1734.285 133.788)">
+      <path id="Path_1" data-name="Path 1" d="M14.762,31.381A1.381,1.381,0,1,1,13.381,30,1.381,1.381,0,0,1,14.762,31.381Z" transform="translate(3.167 10.45)" fill="none" stroke="#bd9229" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2" data-name="Path 2" d="M31.262,31.381A1.381,1.381,0,1,1,29.881,30,1.381,1.381,0,0,1,31.262,31.381Z" transform="translate(12.073 10.45)" fill="none" stroke="#bd9229" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_3" data-name="Path 3" d="M1.5,1.5H9.881L15.5,32.678a4.319,4.319,0,0,0,4.191,3.749H40.053a4.319,4.319,0,0,0,4.191-3.749L47.6,13.142H11.976" transform="translate(-1.5 -1.5)" fill="none" stroke="#bd9229" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <text id="_2" data-name="2" transform="translate(1774 146)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+/* Bridal.css */
+
+.sub-navbar {
+    position: absolute;
+    top: 310px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--white);
+    transition: 0.3s;
+    border-top: 1px solid var(--black);
+  }
+  
+  .navbar--item li:hover .sub-navbar,
+  .sub-navbar.visible {
+    display: block;
+  }
+  
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navBar .Navlink {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+    padding: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  
